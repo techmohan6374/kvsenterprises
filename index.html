@@ -2,104 +2,104 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
 
-    <!-- Bootstrap CSS CDN -->
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap CSS CDN -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Flickity CSS CDN -->
-    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+  <!-- Flickity CSS CDN -->
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
 
-    <!-- CSS Link -->
-    <link rel="stylesheet" href="resources/css/style.css">
+  <!-- CSS Link -->
+  <link rel="stylesheet" href="resources/css/style.css">
 </head>
 
 <body data-spy="scroll" data-target="#navbar-example" data-offset="70">
-    <div class="container-fluid flex flex-column vh-100 gap-3" id="loader">
-        <img src="resources/images/KVS_Logo.svg" alt="KVS Logo" style="width:80px;">
-        <h2>KVS Enterprises</h2>
-        <div class="loader"></div>
-    </div>
-    <div id="app">
-        <nav id="navbar-example" class="navbar navbar-expand-lg navbar-light fixed-top px-4 py-3">
-            <a class="navbar-brand text-white px-3" href="#">
-                <img src="resources/images/kvs_full_logo.svg" alt="KVS Full Logo" style="width: 250px;">
-            </a>
-            <button class="navbar-toggler flex" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <iconify-icon icon="game-icons:hamburger-menu"></iconify-icon>
-            </button>
-            <div class="collapse navbar-collapse px-3" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link flex" href="#home">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link flex" href="#services">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link flex" href="#products">Products</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link flex" href="#contact">Contact Us</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+  <div class="container-fluid flex flex-column vh-100 gap-3" id="loader">
+    <img src="resources/images/KVS_Logo.svg" alt="KVS Logo" style="width:80px;">
+    <h2>KVS Enterprises</h2>
+    <div class="loader"></div>
+  </div>
+  <div id="app" v-cloak>
+    <nav id="navbar-example" class="navbar navbar-expand-lg navbar-light fixed-top px-3 py-3">
+      <a class="navbar-brand text-white px-3" href="#">
+        <img src="resources/images/kvs_full_logo.svg" alt="KVS Full Logo" style="width: 250px;">
+      </a>
+      <button class="navbar-toggler flex" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <iconify-icon icon="game-icons:hamburger-menu"></iconify-icon>
+      </button>
+      <div class="collapse navbar-collapse px-2" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link flex" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link flex" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link flex" href="#products">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link flex" href="#contact">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
-        <div class="container-fluid">
+    <div class="container-fluid">
 
-            <section id="home">
-                <div class="main-carousel">
-                    <div class="carousel-cell flex">
-                        Image 1
-                    </div>
-                    <div class="carousel-cell flex">
-                        Image 2
-                    </div>
-                    <div class="carousel-cell flex">
-                        Image 3
-                    </div>
-                </div>
-            </section>
-
-            <section id="services">
-                <h1>Services</h1>
-            </section>
-
-            <section id="products">
-                <h1>Products</h1>
-            </section>
-
-            <section id="contact">
-                <h1>Contact Us</h1>
-            </section>
-
+      <section id="home">
+        <div class="main-carousel">
+          <div class="carousel-cell flex">
+            Image 1
+          </div>
+          <div class="carousel-cell flex">
+            Image 2
+          </div>
+          <div class="carousel-cell flex">
+            Image 3
+          </div>
         </div>
+      </section>
+
+      <section id="services">
+        <h1>Services</h1>
+      </section>
+
+      <section id="products">
+        <h1>Products</h1>
+      </section>
+
+      <section id="contact">
+        <h1>Contact Us</h1>
+      </section>
+
     </div>
+  </div>
 
-    <!-- Flickity JS CDN -->
-    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+  <!-- Flickity JS CDN -->
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 
-    <!-- Jquery JS CDN -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <!-- Jquery JS CDN -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 
-    <!-- Popper JS CDN -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <!-- Popper JS CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
 
-    <!-- Bootstrap JS CDN -->
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <!-- Bootstrap JS CDN -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-    <!-- Iconify Icon JS CDN -->
-    <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.8/dist/iconify-icon.min.js"></script>
+  <!-- Iconify Icon JS CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.8/dist/iconify-icon.min.js"></script>
 
-    <!-- Vue JS CDN -->
-    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+  <!-- Vue JS CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
 
-    <!-- JS Link -->
-    <script src="resources/js/script.js"></script>
+  <!-- JS Link -->
+  <script src="resources/js/script.js"></script>
 </body>
 
 </html>

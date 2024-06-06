@@ -159,6 +159,10 @@
      .navbar-nav a {
          color: var(--secondary-color) !important;
      }
+
+     .navbar-nav {
+         margin-top: 20px;
+     }
  }
 
  @media screen and (max-width:767px) {
@@ -166,5 +170,9 @@
      /* sm && xs */
      .navbar-nav a {
          color: var(--secondary-color) !important;
+     }
+
+     .navbar-nav {
+         margin-top: 20px;
      }
  }
