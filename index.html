@@ -9,9 +9,11 @@
     <!-- Bootstrap CSS CDN -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 
+    <!-- Flickity CSS CDN -->
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+
     <!-- CSS Link -->
     <link rel="stylesheet" href="resources/css/style.css">
-
 </head>
 
 <body data-spy="scroll" data-target="#navbar-example" data-offset="70">
@@ -22,26 +24,26 @@
     </div>
     <div id="app">
         <nav id="navbar-example" class="navbar navbar-expand-lg navbar-light fixed-top px-4 py-3">
-            <a class="navbar-brand text-white" href="#">
+            <a class="navbar-brand text-white px-3" href="#">
                 <img src="resources/images/kvs_full_logo.svg" alt="KVS Full Logo" style="width: 250px;">
             </a>
             <button class="navbar-toggler flex" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <iconify-icon icon="game-icons:hamburger-menu"></iconify-icon>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="collapse navbar-collapse px-3" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#home">Home</a>
+                        <a class="nav-link flex" href="#home">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#services">Services</a>
+                        <a class="nav-link flex" href="#services">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#products">Products</a>
+                        <a class="nav-link flex" href="#products">Products</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact Us</a>
+                        <a class="nav-link flex" href="#contact">Contact Us</a>
                     </li>
                 </ul>
             </div>
@@ -95,7 +97,7 @@
 
     <!-- Vue JS CDN -->
     <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
-    
+
     <!-- JS Link -->
     <script src="resources/js/script.js"></script>
 </body>
