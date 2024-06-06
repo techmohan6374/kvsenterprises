@@ -9,7 +9,7 @@
  }
 
  :root {
-     --primary-color: #8e44ad;
+     --primary-color: #30304d;
      --secondary-color: #fff;
      --important-color: #f1c40f;
  }
@@ -49,7 +49,7 @@
  }
 
  .navbar-toggler {
-     color: white !important;
+     color: var(--secondary-color) !important;
      border: 1px solid var(--secondary-color) !important;
      padding: 10px 15px;
 

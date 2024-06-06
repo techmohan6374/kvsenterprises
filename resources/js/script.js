@@ -4,7 +4,7 @@
         setTimeout(() => {
             $('#app').css('display', 'block');
             $('#loader').css('display', 'none');
-        }, 2000);
+        }, 2500);
 
         $(document).ready(function () {
             $('.navbar-nav>li>a').on('click', function () {
